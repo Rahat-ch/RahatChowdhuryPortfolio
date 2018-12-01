@@ -12,3 +12,30 @@
 #topPara{
   padding-top: 50px;
 }
+
+.card{
+  display: inline-flex;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.card-img-top{
+  width: 286px;
+  height: 180px;
+}
+
+#portfolioContainer{
+  margin-left: 10%;
+}
+
+#submit{
+  margin-left: 15px;
+}
+
+#contact{
+  padding-bottom: 75px;
+}
+
+footer{
+  padding-top: 15px;
+}
