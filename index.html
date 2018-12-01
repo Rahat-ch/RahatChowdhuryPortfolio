@@ -12,7 +12,7 @@
     <!-- NavBar starts here -->
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-      <a class="navbar-brand" href="#Rahat">Rahat</a>
+      <a class="navbar-brand" href="#Rahat" id="topOfPage">Rahat</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,13 +21,13 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
           <li class="nav-item active">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about" id="aboutPage">About</a>
           </li>
           <li class="nav-item active">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio" id="portfolioPage">Portfolio</a>
           </li>
           <li class="nav-item active">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact" id="contactPage">Contact</a>
           </li>
 
         </ul>
@@ -43,9 +43,9 @@
       <p class="lead">Web Developer, Gamer, Nerd</p>
       <hr class="my-4">
       <p>Explore Rahat's Work Below</p>
-      <a class="btn btn-dark btn-lg" href="#" role="button">GitHub</a>
-      <a class="btn btn-dark btn-lg" href="#" role="button">Resume</a>
-      <a class="btn btn-dark btn-lg" href="#" role="button">LinkedIn</a>
+      <a class="btn btn-dark btn-lg" href="https://github.com/Rahat-ch" role="button" target="_blank">GitHub</a>
+      <a class="btn btn-dark btn-lg text-light" data-toggle="modal" data-target="#resumeModal" role="button">Resume</a>
+      <a class="btn btn-dark btn-lg" href="https://www.linkedin.com/in/rahatc/" role="button" target="_blank">LinkedIn</a>
     </div>
 
     <!-- Jumbotron end -->
@@ -93,8 +93,9 @@
     <img class="card-img-top" src="assets/images/party.png" alt="Party pic">
     <div class="card-body">
       <h5 class="card-title">Party Like it's 1999</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <p class="card-text">A 90's music themed guessing game. Project Managed by me!</p>
+      <a href="https://github.com/jixuni/project_1-groupies-" class="btn btn-primary btn-dark" target="_blank">Repository</a>
+      <a href="https://jixuni.github.io/project_1-groupies-/" class="btn btn-primary btn-dark" target="_blank">Demo</a>
     </div>
   </div>
 
@@ -102,8 +103,9 @@
   <img class="card-img-top" src="assets/images/giphy.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">GifTastic</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text">Search for GIF's and learn about cars! Or is it Jifs?</p>
+    <a href="https://github.com/Rahat-ch/GifTastic" class="btn btn-primary btn-dark" target="_blank">Repository</a>
+    <a href="https://rahat-ch.github.io/GifTastic/" class="btn btn-primary btn-dark" target="_blank">Demo</a>
   </div>
 </div>
 
@@ -111,8 +113,9 @@
 <img class="card-img-top" src="assets/images/pikachu.jpg" alt="Card image cap">
 <div class="card-body">
   <h5 class="card-title">Pokemon Trivia</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <p class="card-text">Become a Pokemon Master by winning this trivia game!</p>
+  <a href="https://github.com/Rahat-ch/Trivia_Game" class="btn btn-primary btn-dark" target="_blank">Repository</a>
+  <a href="https://rahat-ch.github.io/Trivia_Game/" class="btn btn-primary btn-dark" target="_blank">Demo</a>
 </div>
 </div>
 
@@ -122,7 +125,8 @@
 <div class="card-body">
   <h5 class="card-title">Slapsgiving RPG</h5>
   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <a href="https://github.com/Rahat-ch/unit_4_game" class="btn btn-primary btn-dark" target="_blank">Repository</a>
+  <a href="https://rahat-ch.github.io/unit_4_game/" class="btn btn-primary btn-dark"target="_blank">Demo</a>
 </div>
 </div>
 
@@ -131,7 +135,8 @@
 <div class="card-body">
   <h5 class="card-title">Sword, Axe, Lance</h5>
   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="#" class="btn btn-primary">Go somewhere</a>
+  <a href="https://github.com/Rahat-ch/Sword_Axe_Lance" class="btn btn-primary btn-dark" target="_blank">Repository</a>
+  <a href="https://rahat-ch.github.io/Sword_Axe_Lance/" class="btn btn-primary btn-dark"target="_blank">Demo</a>
 </div>
 </div>
 </div>
@@ -166,6 +171,28 @@
   </div>
 
   <!--End Contact Section-->
+
+  <!-- Modals -->
+
+
+  <!-- Resume Modal -->
+<div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Resume</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <embed src="assets/resume.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
   <footer class="footer bg-dark fixed-bottom text-light text-center">
     Rahat Chowdhury
